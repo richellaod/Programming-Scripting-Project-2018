@@ -1,7 +1,6 @@
 # Richella O'Driscoll 14.04.2018
 # Programming & Scripting Project 2018
 
-
 import pandas
 from pandas.plotting import scatter_matrix
 import matplotlib.pyplot as plt
@@ -20,13 +19,12 @@ url = "https://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data"
 names = ['sepal-length', 'sepal-width', 'petal-length', 'petal-width', 'class']
 dataset = pandas.read_csv(url, names=names) #Used to Load the Iris Dataset
 
-
 print(dataset.shape) #Display how many instances and how many attributes the data contains.
 
 print(dataset.head(20))#Display the first 20 rows of data.
 
 print(dataset.describe())#Display a summary of each attribute.This includes the  mean, the min and max values which is a project requirement.
 
-print(dataset.groupby('class').size()) #Display  the number of instances that belong to each class.
+print(dataset.groupby('class').size()) #Display the number of instances that belong to each class.
 
 
