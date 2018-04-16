@@ -27,4 +27,32 @@ print(dataset.describe())#Display a summary of each attribute.This includes the 
 
 print(dataset.groupby('class').size()) #Display the number of instances that belong to each class.
 
+dataset.hist('sepal-length') #plot my histogram showing the sepal length
+plt.title('Histogram of the Sepal Length in the Iris Data Set') #title of my histogram
+plt.xlabel('Sepal Length in Centimetres') #x axis label
+plt.ylabel('Number of Samples') #y axis label
+plt.savefig('project_hist_sepallength.png') #save the plot
+plt.show() #show my histogram
+
+dataset.hist('sepal-width')  #plot my histogram showing the sepal width
+plt.title('Histogram of the Sepal Width in the Iris Data Set') #title of my histogram
+plt.xlabel('Sepal Width in Centimetres')  #x axis label
+plt.ylabel('Number of Samples')  #y axis label
+plt.savefig('project_hist_sepalwidth.png') #save plot
+plt.show()  #show my histogram
+
+dataset.hist('petal-length') #plot my histogram showing the petal length
+plt.title('Histogram of the Petal Length in the Iris Data Set') #title of my histogram
+plt.xlabel('Petal Length in Centimetres')  #x axis label
+plt.ylabel('Number of Samples')  #y axis label
+plt.savefig('project_hist_petallength.png') #save plot
+plt.show()  #show my histogram
+
+dataset.hist('petal-width') #plot my histogram showing the petal width
+plt.title('Histogram of the Petal Width in the Iris Data Set') #title of my histogram
+plt.xlabel('Petal Width in Centimetres')  #x axis label
+plt.ylabel('Number of Samples')  #y axis label
+plt.savefig('project_hist_petalwidth.png') #save plot
+plt.show()  #show my histogram
+
 
