@@ -56,7 +56,7 @@ plt.savefig('project_hist_petalwidth.png') #save plot
 plt.show()  #show my histogram
 
 #Box & Whiskers
-colour = dict(boxes='Red', whiskers='Blue',medians='Yellow', caps='Green')#colours of my Box and Whisker Plot for univariate data
+color = dict(boxes='Red', whiskers='Blue',medians='Yellow', caps='Green')#colours of my Box and Whisker Plot for univariate data
 dataset.plot(kind='box', subplots=True, layout=(2, 2), sharex=False, sharey=False, color=color)#plot type box
 plt.savefig('project_box_and_whisker_plot.png') #save my plot
 plt.show() #show my plot
