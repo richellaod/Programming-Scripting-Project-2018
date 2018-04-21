@@ -26,8 +26,7 @@ The Iris flower data set or Fisher's Iris data set is a multivariate data set wh
 ![Image of Iris Data Set](https://github.com/richellaod/Images-for-Project-2018/blob/master/Iris%20Data%20Set.JPG)
 
 
-![Image of an Iris](https://github.com/richellaod/Images-for-Project-2018/blob/master/iris_petal_sepal.png)
-
+![Image of an Iris](https://github.com/richellaod/Images-for-Project-2018/blob/master/iris_petal_sepal.png)]
 The above image shows exactly what we are talking about when we refer to sepal length and width and petal length and width.
 
 
@@ -64,11 +63,17 @@ Next I wanted to be able to view my data as easily as possible. From reading num
 
 1. print(dataset.shape) - which would show me how many instances and how many attributes the uploaded data contains.
 
-!(Image of Data Set Result)[https://github.com/richellaod/Images-for-Project-2018/blob/master/result%20of%20data%20shape.JPG]
+![Image of Data Set Result](https://github.com/richellaod/Images-for-Project-2018/blob/master/result%20of%20data%20shape.JPG)
 
-2. print(dataset.head(20)) - Display the first 20 rows of data so I can ensure all has uploaded correctly.
+2. print(dataset.head(20)) - this would allow me to see the first 20 rows of data so I can ensure it all has uploaded correctly.
 
 ![Image for Visual Studio Code Result for first 20 lines](https://github.com/richellaod/Images-for-Project-2018/blob/master/VSC%20Data%20Set%20Upload.JPG)
+
+3. print(dataset.describe()) - This command produces a summary of each attribute. This includes the  mean, the min and max values which is a project requirement. 
+
+![Image for Mean, Min and Max](https://github.com/richellaod/Images-for-Project-2018/blob/master/mean%20min%20max.JPG)
+
+
 
 
 
