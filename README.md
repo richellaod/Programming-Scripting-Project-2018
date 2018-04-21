@@ -1,4 +1,5 @@
 # Programming- and-Scripting-Project-2018
+
 Project for Programming and Scripting Module 2018 by Richella O'Driscoll
 
 
@@ -21,7 +22,7 @@ The Iris flower data set or Fisher's Iris data set is a multivariate data set wh
 
 ![Image of Ronald Fisher](https://github.com/richellaod/Images-for-Project-2018/blob/master/Ronald-Fisher.jpg)
 
-This data set consists of 50 samples from each of three species of Iris (Iris setosa, Iris virginica and Iris versicolor). Four features were measured from each sample: the length of the sepals and the width of the sepals, and the length of the petals and the width of the petals in centimetres. Based on the combination of these four features, Fisher went on to develop a linear discriminant model which would distinguish the species from each other. The data is provided in CSV format and looks something like the below:
+#This data set consists of 50 samples from each of three species of Iris (Iris setosa, Iris virginica and Iris versicolor). Four features were measured from each sample: the length of the sepals and the width of the sepals, and the length of the petals and the width of the petals in centimetres. Based on the combination of these four features, Fisher went on to develop a linear discriminant model which would distinguish the species from each other. The data is provided in CSV format and looks something like the below:
 
 ![Image of Iris Data Set](https://github.com/richellaod/Images-for-Project-2018/blob/master/Iris%20Data%20Set.JPG)
 
@@ -45,7 +46,7 @@ In order for me to compete this project there were a number of resources I neede
 
 Thankfully I had all of these downloaded in the previous weeks in order to complete other tasks which had been set out by my lecturer.
 
-After a lot of research I realised that I would also need to ensure that there was a number of other libraries installed on Python so that I would be able to complete this project. These included matplotlib, numpy and pandas. From that I then had to ensure that other modules and functions were installed which would help me to extract the results from the Iris Data set and also give me the ability to create different types of graphs to display the data:
+After a lot of research I realised that I would also need to ensure that there was a number of other libraries installed on Python so that I would be able to complete this project. These included matplotlib, numpy and pandas. From that I then had to ensure that other modules and functions were installed which would help me to extract the results from the Iris Data set and also give me the ability to create different types of graphs to display the data[2]:
 
 ![Image for Libraries which needed to be installed on Python](https://github.com/richellaod/Images-for-Project-2018/blob/master/Imports.JPG)
 
@@ -61,9 +62,13 @@ After a lot of research I realised that I would also need to ensure that there w
 
 
 
-#References
-[1] https://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data
 
+
+
+
+# References
+[1] https://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data
+[2] https://medium.com/codebagng/basic-analysis-of-the-iris-data-set-using-python-2995618a6342
 
 
 
