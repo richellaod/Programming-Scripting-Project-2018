@@ -78,7 +78,36 @@ Next I wanted to be able to view my data as easily as possible. From reading num
 
 ![Image for Class Results](https://github.com/richellaod/Images-for-Project-2018/blob/master/class.JPG)
 
+# Visualisations for the Data Set and my Analysis
 
+Next I wanted be able to apply different visuals to my data set as this was another significant part of the project. After much investigation I thought that the three best types of graphics which would best support my project would the Histograms, Box and Whiskers Plot and a Scatter Plot.
+
+1. Histogram
+
+A Histogram is a graphical display of data using bars of different heights. It is similar to a Bar Chart, but a histogram groups numbers into ranges.[5]
+
+Histograms appeared to be getting a lot of mentions in numerous articles which I read so I thought this would be the best and main way to dispaly my data in a graphic format. I was unsure of how to go about this as it was not somethign I had done previously however I stumbled across an article on matplotlib [6] which went through in detail, how to go about creating Histograms in Python.
+I decided to create a histogram for each of the attributes in the Iris Data Set using the below code:
+
+![Image for Histogram Code](https://github.com/richellaod/Images-for-Project-2018/blob/master/Histogram%20Code.JPG)
+
+From this code I created the following Histograms:
+
+1. Histogram of the Sepal Length in the Iris Data Set:
+
+![Image for Sepal Length](https://github.com/richellaod/Images-for-Project-2018/blob/master/Sepal%20Length.png)
+
+2. Histogram of the Sepal Width in the Iris Data Set:
+
+![Image for Sepal Width](https://github.com/richellaod/Images-for-Project-2018/blob/master/Sepal%20Width.png)
+
+3. Histogram of the Petal Length in the Iris Data Set:
+
+![Image for Petal Length](https://github.com/richellaod/Images-for-Project-2018/blob/master/Petal%20Length.png)
+
+4. Histogram of the Petal Width in the Iris Data Set:
+
+![Image for the Petal Width](https://github.com/richellaod/Images-for-Project-2018/blob/master/Petal%20Width.png)
 
 
 
@@ -91,6 +120,10 @@ Next I wanted to be able to view my data as easily as possible. From reading num
 [3] https://machinelearningmastery.com/machine-learning-in-python-step-by-step/
 
 [4] https://stackoverflow.com/questions/44594249/cannot-import-data-in-python-using-pandas
+
+[5] https://www.mathsisfun.com/data/histograms.html
+
+[6] https://matplotlib.org/users/pyplot_tutorial.html
 
 
 
