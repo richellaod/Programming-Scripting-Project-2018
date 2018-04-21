@@ -27,6 +27,7 @@ The Iris flower data set or Fisher's Iris data set is a multivariate data set wh
 
 
 ![Image of an Iris](https://github.com/richellaod/Images-for-Project-2018/blob/master/iris_petal_sepal.png)
+
 The above image shows exactly what we are talking about when we refer to sepal length and width and petal length and width.
 
 
@@ -73,12 +74,9 @@ Next I wanted to be able to view my data as easily as possible. From reading num
 
 ![Image for Mean, Min and Max](https://github.com/richellaod/Images-for-Project-2018/blob/master/mean%20min%20max.JPG)
 
-4. print(dataset.groupby('class').size()) - This displays the number of instances that belong to each class.
+4. print(dataset.groupby('class').size()) - This displays the number of instances that belong to each class. The below shows me that there are 150 samples of flowers: 50 - iris setosa, 50 - iris versicolor and 50 - iris virginica
 
 ![Image for Class Results](https://github.com/richellaod/Images-for-Project-2018/blob/master/class.JPG)
-
-
-
 
 
 
