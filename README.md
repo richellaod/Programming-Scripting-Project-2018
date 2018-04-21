@@ -19,8 +19,6 @@ An online search for information on the data set will convince you that many peo
 
 The Iris flower data set or Fisher's Iris data set is a multivariate data set which was introduced by the British statistician and biologist Ronald Fisher, in his 1936 paper “The use of multiple measurements in taxonomic problems as an example of linear discriminant analysis”. It can also be referred to as Anderson's Iris data set because Edgar Anderson collected the data to quantify the morphologic variation of Iris flowers of three related species.
 
-
-
 ![Image of Ronald Fisher](https://github.com/richellaod/Images-for-Project-2018/blob/master/Ronald-Fisher.jpg)
 
 #This data set consists of 50 samples from each of three species of Iris (Iris setosa, Iris virginica and Iris versicolor). Four features were measured from each sample: the length of the sepals and the width of the sepals, and the length of the petals and the width of the petals in centimetres. Based on the combination of these four features, Fisher went on to develop a linear discriminant model which would distinguish the species from each other. The data is provided in CSV format and looks something like the below:
@@ -58,9 +56,24 @@ After ensuring that I had all resourse needed to be able to complete the project
 
 ![Image for Script for Importing the Data Set](https://github.com/richellaod/Images-for-Project-2018/blob/master/import%20data%20set.JPG)
 
-Success! This time it loaded correctly and appeared on Visual Studio Code as the below:
 
-![Image for Visual Studio Code Result for Data Upload](https://github.com/richellaod/Images-for-Project-2018/blob/master/VSC%20Data%20Set%20Upload.JPG)
+Success! This time it loaded correctly for me as I had no error message appear.
+
+
+Next I wanted to be able to view my data as easily as possible. From reading numerous articles on the internet, there were a number of important code to run on Python to be able to do this. Thes included:
+
+1. print(dataset.shape) - which would show me how many instances and how many attributes the uploaded data contains.
+
+!(Image of Data Set Result)[https://github.com/richellaod/Images-for-Project-2018/blob/master/result%20of%20data%20shape.JPG]
+
+2. print(dataset.head(20)) - Display the first 20 rows of data so I can ensure all has uploaded correctly.
+
+![Image for Visual Studio Code Result for first 20 lines](https://github.com/richellaod/Images-for-Project-2018/blob/master/VSC%20Data%20Set%20Upload.JPG)
+
+
+
+
+
 
 
 
