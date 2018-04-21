@@ -20,6 +20,7 @@ An online search for information on the data set will convince you that many peo
 The Iris flower data set or Fisher's Iris data set is a multivariate data set which was introduced by the British statistician and biologist Ronald Fisher, in his 1936 paper “The use of multiple measurements in taxonomic problems as an example of linear discriminant analysis”. It can also be referred to as Anderson's Iris data set because Edgar Anderson collected the data to quantify the morphologic variation of Iris flowers of three related species.
 
 
+
 ![Image of Ronald Fisher](https://github.com/richellaod/Images-for-Project-2018/blob/master/Ronald-Fisher.jpg)
 
 #This data set consists of 50 samples from each of three species of Iris (Iris setosa, Iris virginica and Iris versicolor). Four features were measured from each sample: the length of the sepals and the width of the sepals, and the length of the petals and the width of the petals in centimetres. Based on the combination of these four features, Fisher went on to develop a linear discriminant model which would distinguish the species from each other. The data is provided in CSV format and looks something like the below:
@@ -46,9 +47,24 @@ In order for me to compete this project there were a number of resources I neede
 
 Thankfully I had all of these downloaded in the previous weeks in order to complete other tasks which had been set out by my lecturer.
 
-After a lot of research I realised that I would also need to ensure that there was a number of other libraries installed on Python so that I would be able to complete this project. These included matplotlib, numpy and pandas. From that I then had to ensure that other modules and functions were installed which would help me to extract the results from the Iris Data set and also give me the ability to create different types of graphs to display the data[2]:
+After a lot of research I realised that I would also need to ensure that there was a number of other libraries installed on Python so that I would be able to complete this project. These included matplotlib, numpy and pandas. From that I then had to ensure that other modules and functions were installed which would help me to extract the results from the Iris Data set and also give me the ability to create different types of graphs to display the data[2] (lines 4-16 on https://github.com/richellaod/Programming-Scripting-Project-2018/blob/master/Project.py):
 
 ![Image for Libraries which needed to be installed on Python](https://github.com/richellaod/Images-for-Project-2018/blob/master/Imports.JPG)
+
+# Next Steps
+
+After ensuring that I had all resourse needed to be able to complete the project it was time to upload the Iris Data set. I had dowlnoaded this from the UCI website as stated above as a CSV file. To do this I folloed instructions which were given in an article written by Dr. Jason Brownlee [3] however an error stating "NameError:name'pandas' is not defined. This was preventing me from uploading the data set. I then went onto the stack overflow website which gives indepth answers as to why code might not be working and from this I found out that maybe the correct version of Pandas may not have imported correctly on system [4]. I tried to import again and then used to following code to upload the data set (lines 18-20 on https://github.com/richellaod/Programming-Scripting-Project-2018/blob/master/Project.py):
+
+
+![Image for Script for Importing the Data Set](https://github.com/richellaod/Images-for-Project-2018/blob/master/import%20data%20set.JPG)
+
+Success! This time it loaded correctly and appeared on Visual Studio Code as the below:
+
+![Image for Visual Studio Code Result for Data Upload](https://github.com/richellaod/Images-for-Project-2018/blob/master/VSC%20Data%20Set%20Upload.JPG)
+
+
+
+
 
 
 
@@ -68,7 +84,13 @@ After a lot of research I realised that I would also need to ensure that there w
 
 # References
 [1] https://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data
+
 [2] https://medium.com/codebagng/basic-analysis-of-the-iris-data-set-using-python-2995618a6342
+
+[3] https://machinelearningmastery.com/machine-learning-in-python-step-by-step/
+
+[4] https://stackoverflow.com/questions/44594249/cannot-import-data-in-python-using-pandas
+
 
 
 
