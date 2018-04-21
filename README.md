@@ -21,5 +21,6 @@ The Iris flower data set or Fisher's Iris data set is a multivariate data set wh
 
 ![Image of Ronald Fisher](https://github.com/richellaod/Programming-Scripting-Project-2018/blob/master/Ronald-Fisher.jpg)
 
-This data set consists of 50 samples from each of three species of Iris (Iris setosa, Iris virginica and Iris versicolor). Four features were measured from each sample: the length of the sepals and the width of the sepals, and the length of the petals and the width of the petals in centimetres. Based on the combination of these four features, Fisher went on to develop a linear discriminant model which would distinguish the species from each other. The data is provided in CSV format and this is seen below:
+This data set consists of 50 samples from each of three species of Iris (Iris setosa, Iris virginica and Iris versicolor). Four features were measured from each sample: the length of the sepals and the width of the sepals, and the length of the petals and the width of the petals in centimetres. Based on the combination of these four features, Fisher went on to develop a linear discriminant model which would distinguish the species from each other. The data is provided in CSV format and looks something like the below:
 
+![Image of Iris Data Set](https://github.com/richellaod/Programming-Scripting-Project-2018/blob/master/Iris%20Data%20Set.JPG)
