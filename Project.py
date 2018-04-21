@@ -31,39 +31,39 @@ dataset.hist('sepal-length') #plot my histogram showing the sepal length
 plt.title('Histogram of the Sepal Length in the Iris Data Set') #title of my histogram
 plt.xlabel('Sepal Length in Centimetres') #x axis label
 plt.ylabel('Number of Samples') #y axis label
-plt.savefig('project_hist_sepallength.png') #save the plot
+plt.savefig('project_hist_sepallength.png') #save the histogram
 plt.show() #show my histogram
 
 dataset.hist('sepal-width')  #plot my histogram showing the sepal width
 plt.title('Histogram of the Sepal Width in the Iris Data Set') #title of my histogram
 plt.xlabel('Sepal Width in Centimetres')  #x axis label
 plt.ylabel('Number of Samples')  #y axis label
-plt.savefig('project_hist_sepalwidth.png') #save plot
+plt.savefig('project_hist_sepalwidth.png') #save the histogram
 plt.show()  #show my histogram
 
 dataset.hist('petal-length') #plot my histogram showing the petal length
 plt.title('Histogram of the Petal Length in the Iris Data Set') #title of my histogram
 plt.xlabel('Petal Length in Centimetres')  #x axis label
 plt.ylabel('Number of Samples')  #y axis label
-plt.savefig('project_hist_petallength.png') #save plot
+plt.savefig('project_hist_petallength.png') #save the histogram
 plt.show()  #show my histogram
 
 dataset.hist('petal-width') #plot my histogram showing the petal width
 plt.title('Histogram of the Petal Width in the Iris Data Set') #title of my histogram
 plt.xlabel('Petal Width in Centimetres')  #x axis label
 plt.ylabel('Number of Samples')  #y axis label
-plt.savefig('project_hist_petalwidth.png') #save plot
+plt.savefig('project_hist_petalwidth.png') #save the histogram
 plt.show()  #show my histogram
 
 #Box & Whiskers
-color = dict(boxes='Red', whiskers='Blue',medians='Yellow', caps='Green')#colours of my Box and Whisker Plot for univariate data
+color = dict(boxes='Red', whiskers='Blue',medians='Yellow', caps='Green')#colours of my Box and Whisker diagram for univariate data
 dataset.plot(kind='box', subplots=True, layout=(2, 2), sharex=False, sharey=False, color=color)#plot type box
-plt.savefig('project_box_and_whisker_plot.png') #save my plot
-plt.show() #show my plot
+plt.savefig('project_box_and_whisker_plot.png') #save my box and whiskers diagra,
+plt.show() #show my box and whiskers diagram 
 
 #Scatter Plot
-scatter_matrix(dataset) #scatter plot matrix used to spot structured relationships between input variables.
-plt.show()
+scatter_matrix(dataset) #scatter plot matrix which is used to spot structured relationships between input variables.
+plt.show() #display the scatter plot
 
 
 
