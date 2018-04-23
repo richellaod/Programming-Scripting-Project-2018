@@ -82,7 +82,7 @@ Next I wanted to be able to view my data as easily as possible. From reading num
 
 Next I wanted be able to apply different visuals to my data set as this was another significant part of the project. After much investigation I thought that the three best types of graphics which would best support my project would the Histograms, Box and Whiskers Plot and a Scatter Plot.
 
-1. Histogram
+# 1. Histogram
 
 A Histogram is a graphical display of data using bars of different heights. It is similar to a Bar Chart, but a histogram groups numbers into ranges.[5]
 
@@ -109,13 +109,13 @@ From this code I created the following Histograms:
 
 ![Image for the Petal Width](https://github.com/richellaod/Images-for-Project-2018/blob/master/Petal%20Width.png)
 
-## Box and Whiskers Plot
+# 2.Box and Whiskers Plot
 
 The next visual which I will use to display my data is a Box and Whiskers Plot. What this is is an exploratory graphic, created by John W. Tukey, used to show the distribution of a dataset (at a glance)[7]. Please see the below image which is a screenshot of what appeared after I entered the code to create such a plot:
 
 ![Image for Box and Whiskers Plot](https://github.com/richellaod/Images-for-Project-2018/blob/master/Box%20and%20Whiskers%20Plot.png)
 
-## Scatter Plot
+# 3. Scatter Plot
 
 The last type of visualisation which I chose to use for this project is a multivariate type visualisation known as a Scatter Plot. A scatter plot is a set of points plotted on both the horizontal and vertical axes. Scatter plots are important in statistics because they can show the extent of correlation (if any there happens to be correlation) between the values of observed quantities (called variables). If there is no correlation between the variables, the points will appear randomly scattered on the coordinate plane. If there is a large correlation, then the points will tend to concentrate altogether near a straight line.[8]. Please see below the image which appeared for my Scatter Plot:
 
