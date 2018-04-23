@@ -111,7 +111,11 @@ From this code I created the following Histograms:
 
 # 2.Box and Whiskers Plot
 
-The next visual which I will use to display my data is a Box and Whiskers Plot. What this is is an exploratory graphic, created by John W. Tukey, used to show the distribution of a dataset (at a glance)[7]. Please see the below image which is a screenshot of what appeared after I entered the code to create such a plot:
+The next visual which I will use to display my data is a Box and Whiskers Plot. What this is is an exploratory graphic, created by John W. Tukey, used to show the distribution of a dataset (at a glance)[7]. Please see the below images of the code and  a screenshot of what appeared after I entered the code to create such a plot:
+
+![Image for Box and Whiskers Code](https://github.com/richellaod/Images-for-Project-2018/blob/master/box%20and%20whiskers%20code.JPG)
+
+
 
 ![Image for Box and Whiskers Plot](https://github.com/richellaod/Images-for-Project-2018/blob/master/Box%20and%20Whiskers%20Plot.png)
 
@@ -119,7 +123,12 @@ The next visual which I will use to display my data is a Box and Whiskers Plot. 
 
 The last type of visualisation which I chose to use for this project is a multivariate type visualisation known as a Scatter Plot. A scatter plot is a set of points plotted on both the horizontal and vertical axes. Scatter plots are important in statistics because they can show the extent of correlation (if any there happens to be correlation) between the values of observed quantities (called variables). If there is no correlation between the variables, the points will appear randomly scattered on the coordinate plane. If there is a large correlation, then the points will tend to concentrate altogether near a straight line.[8]. Please see below the image which appeared for my Scatter Plot:
 
+!Image for Scatter Plot Code](https://github.com/richellaod/Images-for-Project-2018/blob/master/Scatter%20Plot%20Code.JPG)
+
+
 ![Image for Scatter Plot](https://github.com/richellaod/Images-for-Project-2018/blob/master/Scatter%20Plot%20of%20Iris%20Data%20altogeter.JPG)
+
+
 
 
 
