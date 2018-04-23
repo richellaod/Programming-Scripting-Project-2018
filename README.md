@@ -86,7 +86,7 @@ Next I wanted be able to apply different visuals to my data set as this was anot
 
 A Histogram is a graphical display of data using bars of different heights. It is similar to a Bar Chart, but a histogram groups numbers into ranges.[5]
 
-Histograms appeared to be getting a lot of mentions in numerous articles which I read so I thought this would be the best and main way to dispaly my data in a graphic format. I was unsure of how to go about this as it was not somethign I had done previously however I stumbled across an article on matplotlib [6] which went through in detail, how to go about creating Histograms in Python.
+Histograms appeared to be getting a lot of mentions in numerous articles which I read so I thought this would be the best and main way to dispaly my data in a graphic format. I was unsure of how to go about this as it was not something I had done previously however I stumbled across an article on matplotlib [6] which went through in detail, how to go about creating Histograms in Python.
 I decided to create a histogram for each of the attributes in the Iris Data Set using the below code:
 
 ![Image for Histogram Code](https://github.com/richellaod/Images-for-Project-2018/blob/master/Histogram%20Code.JPG)
@@ -109,6 +109,8 @@ From this code I created the following Histograms:
 
 ![Image for the Petal Width](https://github.com/richellaod/Images-for-Project-2018/blob/master/Petal%20Width.png)
 
+The above gives us a clearer idea of the distribution of the data set.
+
 # 2.Box and Whiskers Plot
 
 The next visual which I will use to display my data is a Box and Whiskers Plot. What this is is an exploratory graphic, created by John W. Tukey, used to show the distribution of a dataset (at a glance)[7]. Please see the below images of the code and  a screenshot of what appeared after I entered the code to create such a plot:
@@ -119,6 +121,8 @@ The next visual which I will use to display my data is a Box and Whiskers Plot. 
 
 ![Image for Box and Whiskers Plot](https://github.com/richellaod/Images-for-Project-2018/blob/master/Box%20and%20Whiskers%20Plot.png)
 
+From the above we can see a clearer idea of the distribution of the input attributes in the data set.
+
 # 3. Scatter Plot
 
 The last type of visualisation which I chose to use for this project is a multivariate type visualisation known as a Scatter Plot. A scatter plot is a set of points plotted on both the horizontal and vertical axes. Scatter plots are important in statistics because they can show the extent of correlation (if any there happens to be correlation) between the values of observed quantities (called variables). If there is no correlation between the variables, the points will appear randomly scattered on the coordinate plane. If there is a large correlation, then the points will tend to concentrate altogether near a straight line.[8]. Please see below the image which appeared for my Scatter Plot:
@@ -127,6 +131,8 @@ The last type of visualisation which I chose to use for this project is a multiv
 
 
 ![Image for Scatter Plot](https://github.com/richellaod/Images-for-Project-2018/blob/master/Scatter%20Plot%20of%20Iris%20Data%20altogeter.JPG)
+
+From the above we can clearly see that there appears to be diagonal grouping of some pairs of attributes. From this we can see that there appears to be a high correlation and a predictable relationship between the attributes in the Iris Data Set.
 
 
 
