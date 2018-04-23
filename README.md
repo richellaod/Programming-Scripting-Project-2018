@@ -1,6 +1,9 @@
-# Programming- and-Scripting-Project-2018
+![Image for GMIT Crest](https://github.com/richellaod/Images-for-Project-2018/blob/master/gmit.jpg)
 
-Project for Programming and Scripting Module 2018 by Richella O'Driscoll
+
+## Programming and Scripting Project 2018
+
+Project for Programming and Scripting Module as part of the Higher Diploma in Data Analytics 2018 by Richella O'Driscoll
 
 
 ## Problem Statement
