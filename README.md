@@ -24,17 +24,17 @@ The Iris flower data set or Fisher's Iris data set is a multivariate data set wh
 
 ![Image of Ronald Fisher](https://github.com/richellaod/Images-for-Project-2018/blob/master/Ronald-Fisher.jpg)
 
-#This data set consists of 50 samples from each of three species of Iris (Iris setosa, Iris virginica and Iris versicolor). Four features were measured from each sample: the length of the sepals and the width of the sepals, and the length of the petals and the width of the petals in centimetres. Based on the combination of these four features, Fisher went on to develop a linear discriminant model which would distinguish the species from each other. The data is provided in CSV format and looks something like the below:
+This data set consists of 50 samples from each of three species of Iris (Iris setosa, Iris virginica and Iris versicolor). Four features were measured from each sample: the length of the sepals and the width of the sepals, and the length of the petals and the width of the petals in centimetres. Based on the combination of these four features, Fisher went on to develop a linear discriminant model which would distinguish the species from each other. The data is provided in CSV format and looks something like the below:
 
 ![Image of Iris Data Set](https://github.com/richellaod/Images-for-Project-2018/blob/master/Iris%20Data%20Set.JPG)
 
 
 ![Image of an Iris](https://github.com/richellaod/Images-for-Project-2018/blob/master/iris_petal_sepal.png)
 
-The above image shows exactly what we are talking about when we refer to sepal length and width and petal length and width.
+The above image shows exactly what we are talking about when we refer to sepal length and width and petal length and width of the Iris.
 
 
-I must admit when I first came across this data set I thought I would never be able to understand it or be able to write Python code which would enable me to extract information out of the data set to complete the project. However after a lot of research I figured out I was not the only one in this situation! Bringing information from different sources together and revising over Python code which our lecturer had gone through with us over the last couple of months enabled me to put everthing together as such.
+I must admit when I first came across this data set I thought I would never be able to understand it or be able to write Python code which would enable me to extract information out of the data set to complete the project. However after a lot of research I figured out I was not the only one in this situation! Bringing information from different sources together and revising over Python code which our lecturer had gone through with us over the last couple of months enabled me to analyse this data set.
 
 
 # My Analysis
@@ -54,7 +54,7 @@ After a lot of research I realised that I would also need to ensure that there w
 
 # Next Steps
 
-After ensuring that I had all resourse needed to be able to complete the project it was time to upload the Iris Data set. I had dowlnoaded this from the UCI website as stated above as a CSV file. To do this I folloed instructions which were given in an article written by Dr. Jason Brownlee [3] however an error stating "NameError:name'pandas' is not defined. This was preventing me from uploading the data set. I then went onto the stack overflow website which gives indepth answers as to why code might not be working and from this I found out that maybe the correct version of Pandas may not have imported correctly on system [4]. I tried to import again and then used to following code to upload the data set:
+After ensuring that I had all resourses needed to be able to complete the project, it was time to upload the Iris Data set. I had downloaded this from the UCI website as stated above as a CSV file. To do this I followed instructions which were given in an article written by Dr. Jason Brownlee [3], however an error stating "NameError:name'pandas' is not defined kept appearing on Visual Studio Code. This was preventing me from uploading the data set. I then went onto the stack overflow website which gives indepth answers as to why code might not be working and from this I found out that maybe the correct version of Pandas may not have imported correctly on system [4]. I tried to import again and then used to following code to upload the data set:
 
 
 ![Image for Script for Importing the Data Set](https://github.com/richellaod/Images-for-Project-2018/blob/master/import%20data%20set.JPG)
@@ -89,7 +89,7 @@ Next I wanted be able to apply different visuals to my data set as this was anot
 
 A Histogram is a graphical display of data using bars of different heights. It is similar to a Bar Chart, but a histogram groups numbers into ranges.[5]
 
-Histograms appeared to be getting a lot of mentions in numerous articles which I read so I thought this would be the best and main way to dispaly my data in a graphic format. I was unsure of how to go about this as it was not something I had done previously however I stumbled across an article on matplotlib [6] which went through in detail, how to go about creating Histograms in Python.
+Histograms appeared to be getting a lot of mentions in numerous articles which I read so I thought this would be the best and main way to display my data in a graphic format. I was unsure of how to go about this as it was not something I had done previously, however I stumbled across an article on matplotlib [6] which went through in detail, how to go about creating Histograms in Python.
 I decided to create a histogram for each of the attributes in the Iris Data Set using the below code:
 
 ![Image for Histogram Code](https://github.com/richellaod/Images-for-Project-2018/blob/master/Histogram%20Code.JPG)
@@ -116,7 +116,7 @@ The above gives me a clearer idea of the distribution of the data set.
 
 ## 2.Box and Whiskers Plot
 
-The next visual which I will use to display my data is a Box and Whiskers Plot. What this is is an exploratory graphic, created by John W. Tukey, used to show the distribution of a dataset (at a glance)[7]. Please see the below images of the code and a screenshot of what appeared after I entered the code to create such a plot:
+The next visual which I used to display my data is a Box and Whiskers Plot. What this is, is an exploratory graphic, created by John W. Tukey, used to show the distribution of a dataset (at a glance)[7]. Please see the below images of the code and a screenshot of what appeared after I entered the code to create such a plot:
 
 ![Image for Box and Whiskers Code](https://github.com/richellaod/Images-for-Project-2018/blob/master/box%20and%20whiskers%20code.JPG)
 
@@ -124,18 +124,18 @@ The next visual which I will use to display my data is a Box and Whiskers Plot. 
 
 ![Image for Box and Whiskers Plot](https://github.com/richellaod/Images-for-Project-2018/blob/master/Box%20and%20Whiskers%20Plot.png)
 
-From the above I can see a clearer idea of the distribution of the input attributes in the data set.
+From the above I can now see a clearer idea of the distribution of the input attributes in the data set.
 
 ## 3. Scatter Plot
 
-The last type of visualisation which I chose to use for this project is a multivariate type visualisation known as a Scatter Plot. A scatter plot is a set of points plotted on both the horizontal and vertical axes. Scatter plots are important in statistics because they can show the extent of correlation (if any there happens to be correlation) between the values of observed quantities (called variables). If there is no correlation between the variables, the points will appear randomly scattered on the coordinate plane. If there is a large correlation, then the points will tend to concentrate altogether near a straight line.[8]. Please see below the image which appeared for my Scatter Plot:
+The last type of visualisation which I chose to use for this project is a multivariate type visualisation known as a Scatter Plot. A scatter plot is a set of points plotted on both the horizontal and vertical axes. Scatter plots are important in statistics because they can show the extent of correlation (if any there happens to be correlation) between the values of observed quantities (called variables). If there is no correlation between the variables, the points will appear randomly scattered on the coordinate plane. If there is a large correlation, then the points will tend to concentrate altogether near a straight line.[8]. Please see below the code I used and the graph which appeared for my Scatter Plot:
 
 ![Image for Scatter Plot Code](https://github.com/richellaod/Images-for-Project-2018/blob/master/Scatter%20Plot%20Code.JPG)
 
 
 ![Image for Scatter Plot](https://github.com/richellaod/Images-for-Project-2018/blob/master/Scatter%20Plot%20of%20Iris%20Data%20altogeter.JPG)
 
-From the above we can clearly see that there appears to be diagonal grouping of some pairs of attributes. Following on from this I can see that there appears to be a high correlation and a predictable relationship between the attributes in the Iris Data Set.
+From the above I can clearly see that there appears to be diagonal grouping of some pairs of attributes. Following on from this I can see that there is a high correlation and a predictable relationship between the attributes in the Iris Data Set.
 
 
 # Conclusions
