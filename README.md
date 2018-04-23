@@ -63,7 +63,7 @@ After ensuring that I had all resourse needed to be able to complete the project
 Success! This time it loaded correctly for me as I had no error message appear.
 
 
-Next I wanted to be able to view my data as easily as possible. From reading numerous articles on the internet, there were a number of important code to run on Python to be able to do this. Thes included:
+Next I wanted to be able to view my data as easily as possible. From reading numerous articles on the internet, there were a number of important code to run on Python to be able to do this. These included:
 
 1. print(dataset.shape) - which would show me how many instances and how many attributes the uploaded data contains.
 
@@ -135,20 +135,17 @@ The last type of visualisation which I chose to use for this project is a multiv
 
 ![Image for Scatter Plot](https://github.com/richellaod/Images-for-Project-2018/blob/master/Scatter%20Plot%20of%20Iris%20Data%20altogeter.JPG)
 
-From the above we can clearly see that there appears to be diagonal grouping of some pairs of attributes. From this I can see that there appears to be a high correlation and a predictable relationship between the attributes in the Iris Data Set.
+From the above we can clearly see that there appears to be diagonal grouping of some pairs of attributes. Following on from this I can see that there appears to be a high correlation and a predictable relationship between the attributes in the Iris Data Set.
 
 
 ## Conclusions
 
+The brief of this project was to be able to demonstrate what we have learned using Python since January and to bring it all together. As I have never used this Programming Language (or any other!) before, when I looked at the brief initially I thought it would be difficult to complete. However by breaking the project down into a number of different sections and by a lot of online research, I found the project to be extremely interesting and really gained a lot of insight and knowledge into how better to be using Python. As someone who has used Excel since University, I initially found the transition difficult however I now feel that Python is easier and quicker to calculate and analyse huge amounts of data than Excel ever will be. Coming back to the project, I decided to stick to the basic analysis of mean, maximum and minimum of each data set as outlined in the project brief as I felt confident in doing so and while I came across a number of other ways of analysing the data such as using Logistic Regression (LR), Linear Discriminant Analysis (LDA), K-Nearest Neighbors (KNN), Classification and Regression Trees (CART), Gaussian Naive Bayes (NB) and Support Vector Machines (SVM) - the majority I had not heard of before, I felt it was best not to over complicate the project and as a result I now feel more confident in approaching machine learning projects in Python, and look forward to be able to learn how to analyse this data in more depth using the above complex algorithms as the course progresses.
 
 
 
 
-
-
-
-
-# References
+## References
 [1] https://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data
 
 [2] https://medium.com/codebagng/basic-analysis-of-the-iris-data-set-using-python-2995618a6342
