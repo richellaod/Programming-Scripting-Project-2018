@@ -109,11 +109,11 @@ From this code I created the following Histograms:
 
 ![Image for the Petal Width](https://github.com/richellaod/Images-for-Project-2018/blob/master/Petal%20Width.png)
 
-The above gives us a clearer idea of the distribution of the data set.
+The above gives me a clearer idea of the distribution of the data set.
 
 # 2.Box and Whiskers Plot
 
-The next visual which I will use to display my data is a Box and Whiskers Plot. What this is is an exploratory graphic, created by John W. Tukey, used to show the distribution of a dataset (at a glance)[7]. Please see the below images of the code and  a screenshot of what appeared after I entered the code to create such a plot:
+The next visual which I will use to display my data is a Box and Whiskers Plot. What this is is an exploratory graphic, created by John W. Tukey, used to show the distribution of a dataset (at a glance)[7]. Please see the below images of the code and a screenshot of what appeared after I entered the code to create such a plot:
 
 ![Image for Box and Whiskers Code](https://github.com/richellaod/Images-for-Project-2018/blob/master/box%20and%20whiskers%20code.JPG)
 
@@ -121,7 +121,7 @@ The next visual which I will use to display my data is a Box and Whiskers Plot. 
 
 ![Image for Box and Whiskers Plot](https://github.com/richellaod/Images-for-Project-2018/blob/master/Box%20and%20Whiskers%20Plot.png)
 
-From the above we can see a clearer idea of the distribution of the input attributes in the data set.
+From the above I can see a clearer idea of the distribution of the input attributes in the data set.
 
 # 3. Scatter Plot
 
@@ -132,7 +132,11 @@ The last type of visualisation which I chose to use for this project is a multiv
 
 ![Image for Scatter Plot](https://github.com/richellaod/Images-for-Project-2018/blob/master/Scatter%20Plot%20of%20Iris%20Data%20altogeter.JPG)
 
-From the above we can clearly see that there appears to be diagonal grouping of some pairs of attributes. From this we can see that there appears to be a high correlation and a predictable relationship between the attributes in the Iris Data Set.
+From the above we can clearly see that there appears to be diagonal grouping of some pairs of attributes. From this I can see that there appears to be a high correlation and a predictable relationship between the attributes in the Iris Data Set.
+
+
+## Conclusions
+
 
 
 
