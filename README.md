@@ -1,7 +1,7 @@
 ![Image for GMIT Crest](https://github.com/richellaod/Images-for-Project-2018/blob/master/gmit.jpg)
 
 
-## Programming and Scripting Project 2018
+# Programming and Scripting Project 2018
 
 Project for Programming and Scripting Module as part of the Higher Diploma in Data Analytics 2018 by Richella O'Driscoll
 
@@ -18,7 +18,7 @@ An online search for information on the data set will convince you that many peo
 5. Write a summary of your investigations.
 6. Include supporting tables and graphics that you deem to be neccasary.
 
-## The Iris Data Set
+# The Iris Data Set
 
 The Iris flower data set or Fisher's Iris data set is a multivariate data set which was introduced by the British statistician and biologist Ronald Fisher, in his 1936 paper “The use of multiple measurements in taxonomic problems as an example of linear discriminant analysis”. It can also be referred to as Anderson's Iris data set because Edgar Anderson collected the data to quantify the morphologic variation of Iris flowers of three related species.
 
@@ -37,7 +37,7 @@ The above image shows exactly what we are talking about when we refer to sepal l
 I must admit when I first came across this data set I thought I would never be able to understand it or be able to write Python code which would enable me to extract information out of the data set to complete the project. However after a lot of research I figured out I was not the only one in this situation! Bringing information from different sources together and revising over Python code which our lecturer had gone through with us over the last couple of months enabled me to put everthing together as such.
 
 
-## My Analysis
+# My Analysis
 
 In order for me to compete this project there were a number of resources I needed. These included:
 
@@ -85,7 +85,7 @@ Next I wanted to be able to view my data as easily as possible. From reading num
 
 Next I wanted be able to apply different visuals to my data set as this was another significant part of the project. After much investigation I thought that the three best types of graphics which would best support my project would the Histograms, Box and Whiskers Plot and a Scatter Plot.
 
-# 1. Histogram
+## 1. Histogram
 
 A Histogram is a graphical display of data using bars of different heights. It is similar to a Bar Chart, but a histogram groups numbers into ranges.[5]
 
@@ -114,7 +114,7 @@ From this code I created the following Histograms:
 
 The above gives me a clearer idea of the distribution of the data set.
 
-# 2.Box and Whiskers Plot
+## 2.Box and Whiskers Plot
 
 The next visual which I will use to display my data is a Box and Whiskers Plot. What this is is an exploratory graphic, created by John W. Tukey, used to show the distribution of a dataset (at a glance)[7]. Please see the below images of the code and a screenshot of what appeared after I entered the code to create such a plot:
 
@@ -126,7 +126,7 @@ The next visual which I will use to display my data is a Box and Whiskers Plot. 
 
 From the above I can see a clearer idea of the distribution of the input attributes in the data set.
 
-# 3. Scatter Plot
+## 3. Scatter Plot
 
 The last type of visualisation which I chose to use for this project is a multivariate type visualisation known as a Scatter Plot. A scatter plot is a set of points plotted on both the horizontal and vertical axes. Scatter plots are important in statistics because they can show the extent of correlation (if any there happens to be correlation) between the values of observed quantities (called variables). If there is no correlation between the variables, the points will appear randomly scattered on the coordinate plane. If there is a large correlation, then the points will tend to concentrate altogether near a straight line.[8]. Please see below the image which appeared for my Scatter Plot:
 
@@ -138,14 +138,14 @@ The last type of visualisation which I chose to use for this project is a multiv
 From the above we can clearly see that there appears to be diagonal grouping of some pairs of attributes. Following on from this I can see that there appears to be a high correlation and a predictable relationship between the attributes in the Iris Data Set.
 
 
-## Conclusions
+# Conclusions
 
 The brief of this project was to be able to demonstrate what we have learned using Python since January and to bring it all together. As I have never used this Programming Language (or any other!) before, when I looked at the brief initially I thought it would be difficult to complete. However by breaking the project down into a number of different sections and by a lot of online research, I found the project to be extremely interesting and really gained a lot of insight and knowledge into how better to be using Python. As someone who has used Excel since University, I initially found the transition difficult however I now feel that Python is easier and quicker to calculate and analyse huge amounts of data than Excel ever will be. Coming back to the project, I decided to stick to the basic analysis of mean, maximum and minimum of each data set as outlined in the project brief as I felt confident in doing so and while I came across a number of other ways of analysing the data such as using Logistic Regression (LR), Linear Discriminant Analysis (LDA), K-Nearest Neighbors (KNN), Classification and Regression Trees (CART), Gaussian Naive Bayes (NB) and Support Vector Machines (SVM) - the majority I had not heard of before, I felt it was best not to over complicate the project and as a result I now feel more confident in approaching machine learning projects in Python, and look forward to be able to learn how to analyse this data in more depth using the above complex algorithms as the course progresses.
 
 
 
 
-## References
+# References
 [1] https://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data
 
 [2] https://medium.com/codebagng/basic-analysis-of-the-iris-data-set-using-python-2995618a6342
