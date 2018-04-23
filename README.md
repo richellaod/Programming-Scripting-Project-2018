@@ -45,13 +45,13 @@ In order for me to compete this project there were a number of resources I neede
 
 Thankfully I had all of these downloaded in the previous weeks in order to complete other tasks which had been set out by my lecturer.
 
-After a lot of research I realised that I would also need to ensure that there was a number of other libraries installed on Python so that I would be able to complete this project. These included matplotlib, numpy and pandas. From that I then had to ensure that other modules and functions were installed which would help me to extract the results from the Iris Data set and also give me the ability to create different types of graphs to display the data[2] (lines 4-16 on https://github.com/richellaod/Programming-Scripting-Project-2018/blob/master/Project.py):
+After a lot of research I realised that I would also need to ensure that there was a number of other libraries installed on Python so that I would be able to complete this project. These included matplotlib, numpy and pandas. From that I then had to ensure that other modules and functions were installed which would help me to extract the results from the Iris Data set and also give me the ability to create different types of graphs to display the data[2]:
 
 ![Image for Libraries which needed to be installed on Python](https://github.com/richellaod/Images-for-Project-2018/blob/master/Imports.JPG)
 
 # Next Steps
 
-After ensuring that I had all resourse needed to be able to complete the project it was time to upload the Iris Data set. I had dowlnoaded this from the UCI website as stated above as a CSV file. To do this I folloed instructions which were given in an article written by Dr. Jason Brownlee [3] however an error stating "NameError:name'pandas' is not defined. This was preventing me from uploading the data set. I then went onto the stack overflow website which gives indepth answers as to why code might not be working and from this I found out that maybe the correct version of Pandas may not have imported correctly on system [4]. I tried to import again and then used to following code to upload the data set (lines 18-20 on https://github.com/richellaod/Programming-Scripting-Project-2018/blob/master/Project.py):
+After ensuring that I had all resourse needed to be able to complete the project it was time to upload the Iris Data set. I had dowlnoaded this from the UCI website as stated above as a CSV file. To do this I folloed instructions which were given in an article written by Dr. Jason Brownlee [3] however an error stating "NameError:name'pandas' is not defined. This was preventing me from uploading the data set. I then went onto the stack overflow website which gives indepth answers as to why code might not be working and from this I found out that maybe the correct version of Pandas may not have imported correctly on system [4]. I tried to import again and then used to following code to upload the data set:
 
 
 ![Image for Script for Importing the Data Set](https://github.com/richellaod/Images-for-Project-2018/blob/master/import%20data%20set.JPG)
@@ -123,7 +123,7 @@ The next visual which I will use to display my data is a Box and Whiskers Plot. 
 
 The last type of visualisation which I chose to use for this project is a multivariate type visualisation known as a Scatter Plot. A scatter plot is a set of points plotted on both the horizontal and vertical axes. Scatter plots are important in statistics because they can show the extent of correlation (if any there happens to be correlation) between the values of observed quantities (called variables). If there is no correlation between the variables, the points will appear randomly scattered on the coordinate plane. If there is a large correlation, then the points will tend to concentrate altogether near a straight line.[8]. Please see below the image which appeared for my Scatter Plot:
 
-!Image for Scatter Plot Code](https://github.com/richellaod/Images-for-Project-2018/blob/master/Scatter%20Plot%20Code.JPG)
+![Image for Scatter Plot Code](https://github.com/richellaod/Images-for-Project-2018/blob/master/Scatter%20Plot%20Code.JPG)
 
 
 ![Image for Scatter Plot](https://github.com/richellaod/Images-for-Project-2018/blob/master/Scatter%20Plot%20of%20Iris%20Data%20altogeter.JPG)
